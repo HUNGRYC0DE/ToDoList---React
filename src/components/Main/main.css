@@ -1,0 +1,77 @@
+
+.head p{
+  font-size: 30px;
+  color: aliceblue;
+}
+.Main{
+  margin-top: 100px;
+    width: 80%;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.37);
+    box-shadow: 0 0 20px 20px rgba(221, 175, 88, 0.445),
+      0 17px 50px 0 rgba(155, 5, 5, 0.63);
+}
+.btn {
+    margin: 20px;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgba(174, 0, 255, 0.192);
+    border-radius: 12px;
+    display: inline-block;
+    font-size: large;
+    width: 130px;
+    transition: all 0.5s ease-out;
+  }
+  .btn:hover {
+    box-shadow: 0 0 20px 10px rgba(221, 175, 88, 0.3),
+      0 0 20px 10px rgba(184, 55, 55, 0.3);
+    background-color: rgba(255, 255, 0, 0.25);
+    color: rgb(255, 255, 255);
+    transition: all 0.5s;
+  }
+  .btn:active {
+    box-shadow: 0 0 20px 15px rgba(80, 255, 80, 0.3),
+      0 0 20px 15px rgba(80, 255, 80, 0.3);
+    background-color: rgba(80, 247, 80, .49);
+    color: aliceblue;
+    outline: none;
+    transition: all 0.0s ease-out;
+  }
+  .inpot{
+    background-color: rgba(228, 228, 228, 0.144);
+    margin: 20px;
+    font-size: larger;
+    padding: 10px 0;
+    border-radius: 12px;
+    outline: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgb(233, 233, 233);
+    font-size: 20px;
+  }
+
+  .list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  .ol-list{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  .list li{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    position: relative;
+    list-style: none;
+    margin: 10px 25px;
+    padding: 5px 15px;
+    text-align: start;
+    color: aliceblue;
+  }
